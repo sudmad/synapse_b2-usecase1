@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "trainingsynapsev0"
+		},
+		"trainingsynapsev0-WorkspaceDefaultSqlServer_connectionString": {
+			"value": ""
+		},
+		"trainingsynapsev0-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://trainingsynapsev0.dfs.core.windows.net"
+		}
+	}
+}
